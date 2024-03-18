@@ -15,7 +15,9 @@
     - [VGG16](#vgg16)
   - [Summary](#summary)
 - [Model Deployment](#model-deployment)
+  - [Testing The Models](#testing-the-models)
   - [Model Conversion and Formats](#model-conversion-and-formats)
+- [Resource](#resource)
 
 
 # Gender Face Recognition's Project
@@ -274,7 +276,13 @@ Here's a summarized comparison of the performance metrics across different itera
 
 # Model Deployment
 
+## Testing The Models
+
 ## Model Conversion and Formats
 
 We're planning to launch our model using tensorflow.js, so it can run on the user's device. In order to do that we have to compile our model to tensorflow js format.
 
+# Resource
+
+1. [Training notebook](https://github.com/insomnius/gender-face-recognitions/blob/main/exploration-binary-classifications.ipynb)
+2. [Testing POC Model Deployment](https://github.com/insomnius/gender-face-recognitions/blob/main/poc-deployment.ipynb)
