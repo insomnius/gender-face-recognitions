@@ -296,6 +296,8 @@ We're planning to launch our model using tensorflow.js, so it can run on the use
 
 ![image](https://github.com/insomnius/gender-face-recognitions/assets/20650401/2f73f67c-1263-43ea-a8f3-39bca80c52ce)
 
+You can open this URL if you want the demo of the application https://fagenre.insomnius.dev.
+
 ### Tech Stack
 
 1. NextJS
