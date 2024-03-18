@@ -164,7 +164,7 @@ export default function Home() {
             <em>(Keep in mind, you can drop up to five files maximum. Let&lsquo;s see what you&lsquo;ve got!)</em>
           </div>
         </div>
-        <div className="md:px-20 px-2 py-20 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="md:px-20 px-2 py-20 grid grid-cols-1 md:grid-cols-5 gap-4">
           {thumbs}
         </div>
       </section>
