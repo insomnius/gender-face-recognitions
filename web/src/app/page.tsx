@@ -267,10 +267,12 @@ export default function Home() {
             <p className="text-sm text-lilac w-10/12 mx-auto font-karla">
               Our AI model is primed and ready to take on the challenge of guessing your image with precision! If we hit the mark, it&apos;s a victory for us. Think you can outsmart our AI? Let&apos;s put its image-guessing skills to the test and see who comes out on top!
             </p>
-            <div className="mx-auto text-center space-x-5">
-              <a href="https://github.com/insomnius/gender-face-recognitions" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
-              <a href="https://www.linkedin.com/in/insomnius/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
-            </div>
+            {model && (
+              <div className="mx-auto text-center space-x-5">
+                <a href="https://github.com/insomnius/gender-face-recognitions" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
+                <a href="https://www.linkedin.com/in/insomnius/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+              </div>
+            )}
           </div>
         </div>
       </section>
