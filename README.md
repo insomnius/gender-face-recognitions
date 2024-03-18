@@ -278,6 +278,14 @@ Here's a summarized comparison of the performance metrics across different itera
 
 ## Testing The Models
 
+![image](https://github.com/insomnius/gender-face-recognitions/assets/20650401/e3e4bc33-27f6-4984-8ea9-c297f954130f)
+
+![image](https://github.com/insomnius/gender-face-recognitions/assets/20650401/131c3a1c-2807-4996-9c08-a72cebd49f7c)
+
+![image](https://github.com/insomnius/gender-face-recognitions/assets/20650401/5473229f-e74f-419f-bdc6-3d56a6b861a2)
+
+![image](https://github.com/insomnius/gender-face-recognitions/assets/20650401/ca16c2ec-ce2b-4c9d-8c4c-8bdc19be4452)
+
 ## Model Conversion and Formats
 
 We're planning to launch our model using tensorflow.js, so it can run on the user's device. In order to do that we have to compile our model to tensorflow js format.
