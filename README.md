@@ -18,6 +18,7 @@
   - [Testing The Models](#testing-the-models)
   - [Model Conversion and Formats](#model-conversion-and-formats)
   - [Web Implementation](#web-implementation)
+    - [Tech Stack](#tech-stack)
 - [Resource](#resource)
 
 
@@ -293,7 +294,12 @@ We're planning to launch our model using tensorflow.js, so it can run on the use
 
 ## Web Implementation
 
-![image](https://github.com/insomnius/gender-face-recognitions/assets/20650401/99ad6ed6-60b3-4f6b-9504-a282dcfb7ca2)
+![image](https://github.com/insomnius/gender-face-recognitions/assets/20650401/2f73f67c-1263-43ea-a8f3-39bca80c52ce)
+
+### Tech Stack
+
+1. NextJS
+2. TensorflowJS
 
 # Resource
 
