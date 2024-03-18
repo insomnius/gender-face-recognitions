@@ -5,8 +5,8 @@ import React, { useEffect, useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import * as tf from '@tensorflow/tfjs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCloudUpload, faMale, faMars, faVenus } from '@fortawesome/free-solid-svg-icons'
-import { faFemale } from "@fortawesome/free-solid-svg-icons/faFemale";
+import { faCloudUpload, faMars, faVenus } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 interface FileWithPreview extends File {
   preview: string;
@@ -94,7 +94,7 @@ export default function Home() {
               <FontAwesomeIcon icon={faMars} size="1x" className="drop-shadow-md bg-blue-400 text-white px-4 py-4 rounded-full" />
             )}
             {file.gender == 'Female' && (
-              <FontAwesomeIcon icon={faMars} size="1x" className="drop-shadow-md bg-pink-400 text-white px-4 py-4 rounded-full" />
+              <FontAwesomeIcon icon={faVenus} size="1x" className="drop-shadow-md bg-pink-400 text-white px-4 py-4 rounded-full" />
             )}
           </div>
           <div className="my-auto py-2px-4">
@@ -267,6 +267,10 @@ export default function Home() {
             <p className="text-sm text-lilac w-10/12 mx-auto font-karla">
               Our AI model is primed and ready to take on the challenge of guessing your image with precision! If we hit the mark, it&apos;s a victory for us. Think you can outsmart our AI? Let&apos;s put its image-guessing skills to the test and see who comes out on top!
             </p>
+            <div className="mx-auto text-center space-x-5">
+              <a href="https://github.com/insomnius/gender-face-recognitions" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
+              <a href="https://www.linkedin.com/in/insomnius/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+            </div>
           </div>
         </div>
       </section>
