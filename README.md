@@ -245,22 +245,22 @@ Overall, the InceptionResNetV2 model from iteration 3 offers a balance between a
 
 Here's a summarized comparison of the performance metrics across different iterations of each model:
 
-| Model             | Test Accuracy | Test Loss | Inference Time (seconds) | Training Accuracy  | Training Loss       | Validation Accuracy | Validation Loss     |
-| ----------------- | ------------- | --------- | ------------------------ | ------------------ | ------------------- | ------------------- | ------------------- |
-| InceptionV3       |               |           |                          |                    |                     |                     |                     |
-| - Iteration 1     | 0.863         | 0.336     | 0.730                    | 0.916015625        | 0.21344590187072754 | 0.8374999761581421  | 0.21344590187072754 |
-| - Iteration 2     | 0.864         | 0.396     | 0.814                    | 0.952343761920929  | 0.11500058323144913 | 0.8999999761581421  | 0.11500058323144913 |
-| - Iteration 3     | 0.916         | 0.242     | 1.301                    | 0.958984375        | 0.10248909890651703 | 0.9125000238418579  | 0.10248909890651703 |
-| InceptionResNetV2 |               |           |                          |                    |                     |                     |                     |
-| - Iteration 1     | 0.903         | 0.280     | 1.848                    | 0.934765636920929  | 0.16316057741641998 | 0.893750011920929   | 0.16316057741641998 |
-| - Iteration 2     | 0.884         | 0.341     | 1.822                    | 0.961718738079071  | 0.0950295701622963% | 0.887499988079071%  | 0.0950295701622963% |
-| - Iteration 3     | 0.927         | 0.175     | 2.878                    | 0.951171875        | 0.11946799606084824 | 0.893750011920929   | 0.11946799606084824 |
-| VGG16             |               |           |                          |                    |                     |                     |                     |
-| - Iteration 1     | 0.901         | 0.260     | 1.143                    | 0.8980468511581421 | 0.25405630469322205 | 0.862500011920929   | 0.25405630469322205 |
-| - Iteration 2     | 0.897         | 0.255     | 1.140                    | 0.9097656011581421 | 0.2175092250108719  | 0.875               | 0.2175092250108719  |
-| - Iteration 3     | 0.911         | 0.233     | 2.630                    | 0.904296875        | 0.2247992753982544  | 0.862500011920929   | 0.2247992753982544  |
+| Model                      | Test Accuracy | Test Loss | Inference Time (seconds) | Training Accuracy  | Training Loss       | Validation Accuracy | Validation Loss     |
+| -------------------------- | ------------- | --------- | ------------------------ | ------------------ | ------------------- | ------------------- | ------------------- |
+| InceptionV3                |               |           |                          |                    |                     |                     |                     |
+| - Iteration 1              | 0.863         | 0.336     | 0.730                    | 0.916015625        | 0.21344590187072754 | 0.8374999761581421  | 0.21344590187072754 |
+| - Iteration 2              | 0.864         | 0.396     | 0.814                    | 0.952343761920929  | 0.11500058323144913 | 0.8999999761581421  | 0.11500058323144913 |
+| - Iteration 3              | 0.916         | 0.242     | 1.301                    | 0.958984375        | 0.10248909890651703 | 0.9125000238418579  | 0.10248909890651703 |
+| InceptionResNetV2          |               |           |                          |                    |                     |                     |                     |
+| - Iteration 1              | 0.903         | 0.280     | 1.848                    | 0.934765636920929  | 0.16316057741641998 | 0.893750011920929   | 0.16316057741641998 |
+| - Iteration 2              | 0.884         | 0.341     | 1.822                    | 0.961718738079071  | 0.0950295701622963% | 0.887499988079071%  | 0.0950295701622963% |
+| - Iteration 3 (**Winner**) | 0.927         | 0.175     | 2.878                    | 0.951171875        | 0.11946799606084824 | 0.893750011920929   | 0.11946799606084824 |
+| VGG16                      |               |           |                          |                    |                     |                     |                     |
+| - Iteration 1              | 0.901         | 0.260     | 1.143                    | 0.8980468511581421 | 0.25405630469322205 | 0.862500011920929   | 0.25405630469322205 |
+| - Iteration 2              | 0.897         | 0.255     | 1.140                    | 0.9097656011581421 | 0.2175092250108719  | 0.875               | 0.2175092250108719  |
+| - Iteration 3              | 0.911         | 0.233     | 2.630                    | 0.904296875        | 0.2247992753982544  | 0.862500011920929   | 0.2247992753982544  |
 
-InceptionResNetV2 from iteration 3 stands out with the highest test accuracy among all models and iterations, coupled with efficient inference time and consistent performance in training and validation. Hence, it is selected as the final model for face gender recognition.
+**InceptionResNetV2** from iteration 3 stands out with the highest test accuracy among all models and iterations, coupled with efficient inference time and consistent performance in training and validation. Hence, it is selected as the final model for face gender recognition.
 
 **Test Accuracy**: It achieves the highest test accuracy among all models, with a value of 92.7%.
 
