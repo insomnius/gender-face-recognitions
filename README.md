@@ -15,8 +15,7 @@
     - [VGG16](#vgg16)
   - [Summary](#summary)
 - [Model Deployment](#model-deployment)
-  - [Model Format Comparisons](#model-format-comparisons)
-    - [Model Conversion and Formats](#model-conversion-and-formats)
+  - [Model Conversion and Formats](#model-conversion-and-formats)
 
 
 # Gender Face Recognition's Project
@@ -275,9 +274,7 @@ InceptionResNetV2 from iteration 3 stands out with the highest test accuracy amo
 
 # Model Deployment
 
-## Model Format Comparisons
+## Model Conversion and Formats
 
-### Model Conversion and Formats
-
-Before deploying the face gender recognition model, it's essential to explore different formats for model conversion and assess their performance. We'll compare the performance of the model in TensorFlow.js format, .keras format, .h5 format, and ONNX saved model format.
+We're planning to launch our model using tensorflow.js, so it can run on the user's device. In order to do that we have to compile our model to tensorflow js format.
 

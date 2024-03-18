@@ -1,6 +1,16 @@
+'use client'
+
 import Image from "next/image";
+import { useEffect } from 'react';
+import * as tf from '@tensorflow/tfjs';
 
 export default function Home() {
+
+  useEffect(() => {
+    const origin = window.location.origin
+    console.log()
+  }, []);
+
   return (
     <main>
       <nav className="bg-gradient-to-r from-cream from-5% via-white to-cream flex items-center py-2 px-4 drop-shadow-sm shadow-sm sticky top">
