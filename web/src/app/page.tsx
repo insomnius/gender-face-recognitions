@@ -246,7 +246,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <div className="absolute filter  hidden md:block -z-[999] opacity-50 overflow-x-hidden h-[800px] w-[800px] top-[808px] blur-3xl" aria-hidden="true">
+      <div className="absolute filter  hidden md:block -z-[999] opacity-50 overflow-x-hidden overvlow-y-hidden h-[300px] w-[800px] top-[808px] blur-3xl" aria-hidden="true">
         <div className="absolute w-[789px] h-[789px] -z-[2002] left-[481px] bg-babyblue rounded-full">
         </div>
         <div className="absolute w-[789px] h-[789px] -z-[2001] left-[671.7px] bg-cream rounded-full">
