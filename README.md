@@ -17,6 +17,7 @@
 - [Model Deployment](#model-deployment)
   - [Testing The Models](#testing-the-models)
   - [Model Conversion and Formats](#model-conversion-and-formats)
+  - [Web Implementation](#web-implementation)
 - [Resource](#resource)
 
 
@@ -289,6 +290,10 @@ Here's a summarized comparison of the performance metrics across different itera
 ## Model Conversion and Formats
 
 We're planning to launch our model using tensorflow.js, so it can run on the user's device. In order to do that we have to compile our model to tensorflow js format.
+
+## Web Implementation
+
+![image](https://github.com/insomnius/gender-face-recognitions/assets/20650401/99ad6ed6-60b3-4f6b-9504-a282dcfb7ca2)
 
 # Resource
 
