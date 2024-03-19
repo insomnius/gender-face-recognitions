@@ -294,7 +294,7 @@ We're planning to launch our model using tensorflow.js, so it can run on the use
 
 ## Web Implementation
 
-![image](https://github.com/insomnius/gender-face-recognitions/assets/20650401/2f73f67c-1263-43ea-a8f3-39bca80c52ce)
+![fagenre](https://github.com/insomnius/gender-face-recognitions/assets/20650401/c5e57a72-d134-4a8c-8fad-e263ac20caa7)
 
 You can open this URL if you want the demo of the application https://fagenre.insomnius.dev.
 
